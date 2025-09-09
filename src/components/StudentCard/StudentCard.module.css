@@ -1,0 +1,32 @@
+.card {
+  display: grid;
+  grid-template-columns: 50px 200px repeat(3, 100px) 200px;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  border-bottom: 1px solid #eee;
+  color: black;
+}
+
+.avatar {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  border: black solid 2px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.field {
+  height: 20px;
+  background-color: #e5e7eb;
+  border-radius: 6px;
+}
+
+.bigField {
+  height: 20px;
+  background-color: #cbd5e1;
+  border-radius: 6px;
+}
